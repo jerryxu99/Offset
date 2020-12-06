@@ -8,11 +8,11 @@
     "default_popup": "popup.html",
     "default_title": "RoundUp"
   },
-  
   "content_scripts": [
     {
       "matches": ["https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "permissions": ["tabs"]
 }
