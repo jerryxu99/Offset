@@ -8,5 +8,8 @@
       "matches": ["https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "browser_action": {
+    "default_icon": "./images/icon.png"
+  }
 }
