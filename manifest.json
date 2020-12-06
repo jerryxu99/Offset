@@ -3,13 +3,16 @@
   "version": "1.0",
   "description": "Rounds up subtotal and donates the round up!",
   "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "RoundUp"
+  },
+  
   "content_scripts": [
     {
       "matches": ["https://www.amazon.ca/gp/cart/view.html?ref_=nav_cart"],
       "js": ["content.js"]
     }
-  ],
-  "browser_action": {
-    "default_icon": "./images/icon.png"
-  }
+  ]
 }
