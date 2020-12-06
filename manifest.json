@@ -1,0 +1,12 @@
+{
+  "name": "Round Up",
+  "version": "1.0",
+  "description": "Rounds up subtotal and donates the round up!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
