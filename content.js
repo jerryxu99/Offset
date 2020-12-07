@@ -5,3 +5,5 @@ var priceString = document
 
 var price = parseFloat(priceString);
 console.log(price);
+
+chrome.storage.local.set({ price });
