@@ -1,6 +1,6 @@
 # Offset
 
-Offset is a chrome extension that helps users offset their carbon footprints!
+Offset is a Chrome Extension that helps users offset their carbon footprints!
 At the checkout of a purchase, clicking the Offset extension calculates a personalized donation amount to offset the carbon footprint created by your purchase, and provides a direct link to an environmental charity.
 
 To install this extension:
