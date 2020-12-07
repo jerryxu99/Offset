@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700');
+
+body {
+  background-image: url('./images/forest.jpg');
+  background-size: cover;
+  min-width: 220px;
+  font-family: 'Nunito', sans-serif;
+  color: #1f1c36;
+  text-align: center;
+}
+
+button {
+  color: gainsboro;
+  cursor: pointer;
+  font-family: 'Nunito', sans-serif;
+}
+
 .rcorners1 {
-    border-radius: 25px;
-    background: #73AD21;
-    padding: 5px;
-    width: 150px;
-    height: 50px;
-  }
+  border-radius: 25px;
+  border: 2px solid gainsboro;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  background: transparent;
+}
