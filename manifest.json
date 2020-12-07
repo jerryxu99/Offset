@@ -1,5 +1,5 @@
 {
-  "name": "Round Up",
+  "name": "Offset",
   "version": "1.0",
   "description": "Rounds up subtotal and donates the round up!",
   "manifest_version": 2,
@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": "./images/icon.png",
     "default_popup": "popup.html",
-    "default_title": "RoundUp"
+    "default_title": "Offset"
   },
   "content_scripts": [
     {
