@@ -1,7 +1,7 @@
 {
-  "name": "Round Up",
+  "name": "Offset",
   "version": "1.0",
-  "description": "Rounds up subtotal and donates the round up!",
+  "description": "Provides a quick way to offset your carbon footprint while online shopping!",
   "manifest_version": 2,
   "icons": {
     "16": "./images/16icon.png",
@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": "./images/icon.png",
     "default_popup": "popup.html",
-    "default_title": "RoundUp"
+    "default_title": "Offset"
   },
   "content_scripts": [
     {
