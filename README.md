@@ -14,3 +14,5 @@ If it worked you should see an icon for the Offset Chrome extension.
 Removing the extension:
 
 To remove the extension, click Remove on the extension page, or use the Remove from Chrome... menu option when right clicking the icon.
+
+![](Offset.gif)
